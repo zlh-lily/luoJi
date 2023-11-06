@@ -50,11 +50,20 @@ body {
   right: 0;
 }
 
-.dibu {
-       max-width: 760px;
-       margin: 30px auto;
-       padding: 15px;
-       line-height: 1.7;
-       text-size-adjust: 100%;
-       color: #666;
+
+
+
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
+.content {
+    flex: 1;
+}
+.footer {
+    flex: 0;
+}
+
