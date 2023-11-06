@@ -49,3 +49,12 @@ body {
   opacity: 1;
   right: 0;
 }
+
+.dibu {
+       max-width: 760px;
+       margin: 30px auto;
+       padding: 15px;
+       line-height: 1.7;
+       text-size-adjust: 100%;
+       color: #666;
+}
